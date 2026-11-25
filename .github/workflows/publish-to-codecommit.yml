@@ -23,7 +23,7 @@ env:
 jobs:
   publish:
     name: Publish to CodeCommit
-    if: github.repository == 'FreeRTOS/FreeRTOS-Website-Content' && github.ref == 'refs/heads/main'
+    if: github.repository == 'kstribrnAmzn/FreeRTOS-Website-Content' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
